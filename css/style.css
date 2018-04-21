@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+}
+
+header{
+    background: url("../img/baner.png") no-repeat top;
+    background-size: cover;
+    height: 1800px;
+
+}
+.wrapper{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    max-width: 1366px;
+}
+
+.menu{
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+
+}
+
+.menu li {
+    list-style: none;
+    padding: 30px 0 30px 50px;
+    text-indent: -2em;
+}
+
+.menu li a::before {
+    content: '\2662';
+    padding-right: 30px;
+}
+.menu li:nth-child(2){
+    padding-right: 15px;
+}
+
+.menu li:first-child a::before {
+    content: '';
+}
+.menu li:nth-child(2) a::after{
+    content: '\2662';
+    padding-left: 30px;
+
+}
+
+.menu li:nth-child(3) a::before{
+    content: "";
+    padding-right: 20px;
+}
+
+li.menu_item2 a{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #454851;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li.menu_item1 a {
+    font-family: 'Oleo Script', cursive;
+    text-transform: capitalize;
+    font-size: 36px;
+    list-style: none;
+
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Philosopher', sans-serif;
+    line-height: 60px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin-top: 50%;
+
+}
+
+h2{
+    color: #171d1c;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 150px;
+
+}
+
+h2:first-letter{
+    text-transform: uppercase;
+}
+
+.title_separator{
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 24px;
+    padding-right: 10px;
+}
+span {
+    font-size: 32px;
+}

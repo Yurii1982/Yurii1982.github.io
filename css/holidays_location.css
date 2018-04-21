@@ -1,0 +1,109 @@
+.location{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:stretch;
+}
+
+
+.location1{
+    display: flex;
+    max-width: 555px;
+}
+
+.location_1a{
+
+    line-height: 0;
+}
+.location_1b{
+
+    margin-right: 15px;
+    background-color: white;
+}
+h3{
+    font-size: 16px;
+    font-family: "Playfair Display SC", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+.location2{
+    display: flex;
+    max-width: 555px;
+}
+.location_2a{
+
+    line-height: 0;
+    margin-left: 15px;
+}
+.location_2b{
+
+    background-color: white;
+}
+.location3{
+    display: flex;
+    margin-top: 30px;
+    max-width: 555px;
+}
+.location_3a{
+
+    line-height: 0;
+
+}
+.location_3b{
+
+    background-color: white;
+    margin-right: 15px;
+}
+.location4{
+    display: flex;
+    margin-top: 30px;
+    max-width: 555px;
+}
+.location_4a{
+
+    line-height: 0;
+    margin-left: 15px;
+}
+.location_4b{
+
+    background-color: white;
+}
+
+h3{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    padding-left: 18px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 18px;
+    padding-top: 18px;
+    color: #454851;
+    margin-top: 0;
+}
+.location__icon{
+    padding-left: 18px;
+}
+.location__icon_a{
+    padding-left: 1px;
+    position: relative;
+}
+.beachfront {
+    position: absolute;
+    color:white;
+    margin-left: -72px;
+    font-size: 16px;
+
+
+}
+.icon__txt {
+    padding-left: 9px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 16px;
+}
+

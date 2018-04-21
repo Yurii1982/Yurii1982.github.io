@@ -1,0 +1,22 @@
+.booking_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 970px;
+    height: 160px;
+    background-color: #ffffff;
+    margin: -80px auto;
+    border: 1px solid black;
+
+}
+
+input{
+
+     color: #999999;
+}
+
+input:hover{
+    border-bottom: 1px solid;
+    color:#454851;
+}
+
