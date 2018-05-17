@@ -1,0 +1,31 @@
+.footer_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #171d1c;
+    color: white;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 115px;
+}
+.footer_container h3{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+} 
+.footer_information,.foooter_experiences, .footer_themes, .footer_popular_destinations,
+ li{
+     color: white;
+     margin: 0px;
+     padding: 0px;
+     text-align: left;
+     text-indent: -20px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 14px;
+     list-style: none;
+}
+
+.footer_popular_destinations ul li{
+    column-count: 2;
+    
+}

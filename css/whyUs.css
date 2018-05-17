@@ -1,0 +1,66 @@
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+     
+}
+
+.icon_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.icon_b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.icon_c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.icon_description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.service_description{
+    display: flex;
+    flex-flow: column;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 318px;
+}
+.icon_caption{
+    font-family: "Playfair Display SC", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    color: #171d1c;
+}
+.icon_caption_txt{
+    color: #454851;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+.bottom_banner{
+    background: url("../img/bottom_baner.png") no-repeat top;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 570px;
+}
+.send_message{
+    display: flex;
+    flex-flow: column;
+    width: 391px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-right: 179px;
+}
+.message_caption{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #1a1a1a;
+    font-family: "Playfair Display SC", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 45px;
+}
+.message_caption:first-letter{
+    text-transform: uppercase;
+}
+.send_info{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-flow: column;
+    font-size: 16px;
+    padding-left: 45px;
+    padding-top: 35px;
+    height: 120px;
+}
+.send_info input {
+    background-color: transparent;
+    border: 0 solid;
+    width: 300px;
+    color: #CCC;
+}
+input:focus {
+  outline: none;
+}
+.send_info input textarea {
+    outline:none;
+}
+.btn_send{
+    border: 0;
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 14px;
+    margin-top: 90px;
+    margin-left: 45px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn_send:hover{
+    color: white;
+
+}

@@ -1,5 +1,6 @@
-.booking_menu{
-    display: flex;
+.booking_menu form{
+    display: flex ;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     max-width: 970px;
@@ -9,14 +10,46 @@
     border: 1px solid black;
 
 }
-
 input{
-
-     color: #999999;
+    background-color: transparent;
+    border-top: none;
+    border-left:none;
+    border-right:none;  
+    border-bottom: 1px solid;
+    color: #999999; 
+    outline: none;
 }
 
 input:hover{
+    border-top: none;
+    border-left:none;
+    border-right:none;  
     border-bottom: 1px solid;
     color:#454851;
+}
+select{
+    border-top: none;
+    border-left:none;
+    border-right:none;  
+    border-bottom: 1px solid;
+    color: black; 
+    outline: none;
+    width: 190px;
+  }
+
+
+.btn{
+    color: rgb(197, 197, 197);
+    border: 0 solid;
+    border-radius: 50px;
+    background-color: red;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn:hover{
+    border: 0 solid;
+    color: white;
 }
 
